@@ -1,5 +1,7 @@
 # Tweet Sentiment Analyzer
 
+**Live Demo:** https://tweet-sentiment-frontend.pages.dev/
+
 This project is a small end-to-end application that demonstrates category-based sentiment analysis for financial tweets using Cloudflare Workers and Workers AI. The system includes a Cloudflare Worker backend for scoring tweets, along with a lightweight frontend built as a static page.
 
 The application supports two primary functions:

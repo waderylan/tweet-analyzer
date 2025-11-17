@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Tweet Sentiment Demo · Category Scoring</title>
+  <title>Tweet Sentiment</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
@@ -266,32 +266,32 @@
 
 <body>
   <div class="app">
-    <h1>Tweet Sentiment Demo</h1>
+    <h1>Tweet Sentiment Analysis</h1>
     <div class="subtitle">
-      Cloudflare Workers AI · Category-only scoring with an overall explanation per tweet.
+      Cloudflare Workers AI Demo
     </div>
 
     <div class="card">
-      <label for="tweets-input">Tweets (one per line)</label>
+      <label for="tweets-input">Tweets</label>
 
       <div class="input-toolbar">
         <span>Each line is treated as a separate tweet.</span>
         <div>
-          <button id="clear-btn" type="button" class="secondary">Clear input</button>
-          <button id="auto-btn" type="button" class="secondary">Autogenerate tweet</button>
+          <button id="clear-btn" type="button" class="secondary">Clear Input</button>
+          <button id="auto-btn" type="button" class="secondary">Autogenerate Tweet</button>
         </div>
       </div>
 
       <textarea id="tweets-input" placeholder="TSLA to the moon, feeling very bullish today&#10;This market looks brutal, everything is red."></textarea>
 
       <div class="hint">
-        Category scores are on [0, 10], where 0 = not present and 10 = extremely strong.
+        
       </div>
 
       <div class="categories-section">
         <div class="categories-title">Analysis categories</div>
         <div class="hint">
-          Default dimensions are selected. You can toggle them or add your own (e.g., “Greed”, “FOMO”).
+          Toggle default categories or add your own.
         </div>
 
         <div class="category-checkboxes">
